@@ -31,7 +31,7 @@ For that same reason, that error messages displayed in the views are handled in 
 ## How to Run the Project on Your Computer
 
 + Download this repository and unzip it  
-+ Install [https://nodejs.org/en/download/](Node.js LTS)
++ Install [Node.js LTS](https://nodejs.org/en/download/)
 + On your computer's terminal (command prompt), change the directory path to the the unzipped repository folder path
 + Run the command **_**npm i**_**  on the terminal to install all dependecies (from the file **_**package.json**_** in the repository folder) 
 + After installing all dependencies, the folder **node_modules** will be created. Only after that, run the command **npm start** on the terminal to start the local server
@@ -61,4 +61,4 @@ For that same reason, that error messages displayed in the views are handled in 
 + CSS
 + Embedded JavaScript Templating (EJS for MVC views)
 + Bootstrap
-+ [https://generatedata.com/](generatedata.com)
++ [generatedata.com](https://generatedata.com/)
