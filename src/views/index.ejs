@@ -1,0 +1,43 @@
+<%- include('./includes/head') %>
+<%- include('./includes/nav') %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        
+        <div class="col-lg-10 my-4">
+            
+            <% if (contacts.length > 0) { %> 
+                <h1 class="text-center">Contacts</h1>
+                <p class="text-center lead font-weight-normal">View and manage your contacts list below</p>
+                <%- include('includes/messages')%>
+                <div class="responsive-table">
+                    <table class="table table-striped my-3">
+                    
+                            <tr class="thead-dark">
+                            <th scope="col">First Name</th>
+                            <th scope="col">Last Name</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col" colspan="3">Email Address</th>
+                            </tr>
+                    
+                        <% contacts.forEach(contact => {  %> 
+                            <tr>
+                                <td><%= contact.firstName %></td>
+                                <td><%= contact.lastName %></td>
+                                <td><%= contact.phoneNumber %></td>
+                                <td><%= contact.email %></td>
+                                <td><a href="/contact/index/<%= contact._id %>" class="font-weight-bold">Edit</a></td>
+                                <td><a href="/contact/delete/<%= contact._id %>" class="text-danger font-weight-bold">Delete</a></td>
+                            </tr>
+                        <% }) %> 
+                    </table>
+                </div>
+            <% } %> 
+        </div>
+
+        <div class="col-lg-1"></div>
+    </div>
+</div>
+
+<%- include('./includes/footer') %>

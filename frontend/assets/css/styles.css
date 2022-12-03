@@ -1,0 +1,16 @@
+.footer p, .footer a {
+    font-size: 20px;
+}
+.footer a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer p a:hover {
+    color: red !important;
+    transition: 300ms ease-in-out;
+}
+
+#heartEntity {
+    font-size: 20px;
+}

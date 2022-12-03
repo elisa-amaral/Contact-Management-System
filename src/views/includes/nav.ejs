@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <a class="navbar-brand" href="/">
+        <img src="/assets/img/logo.svg" alt="Contact Management System" width="60" height="60">
+        Contact Management System
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <% if(user) { %>
+                <li class="nav-item">
+                    <a class="nav-link text-white font-weight-bold" href="/">My Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white font-weight-bold" href="/contact/index">Add New</a>
+                </li>
+                <li class="nav-item text-white">
+                    <a class="nav-link font-weight-bold text-white font-weight-bold" href="/authentication/logout">Log Out</a>
+                </li>
+            <% } %>
+        </ul>
+    </div>
+</nav>
