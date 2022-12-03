@@ -24,7 +24,7 @@ https://drive.google.com/file/d/1FHaRYZ1wInrqDiTN_YaOd2Lvrz6N6_kB/view?usp=share
 
 ## Important Details
 
-User permissions were not implemented, that is, all logged in users view and edit the same contact list, as a public contact list accessible after siging up to the system. This was done in this manner because the purpose of the project was to create a data CRUD (Create, Read, Update, Delete) with full stack JavaScript by using Node.js, Express.js, Webpack module bundler and MongoDB Atlas Database + Mongoose, all running on the Model-View-Controller architecture (MVC Framework). 
+User permissions were not implemented, that is, all logged in users view and edit the same contact list, as a public contact list accessible after signing up to the system. This was done in this manner because the purpose of the project was to create a data CRUD (Create, Read, Update, Delete) with full stack JavaScript by using Node.js, Express.js, Webpack module bundler and MongoDB Atlas Database + Mongoose, all running on the Model-View-Controller architecture (MVC Framework). 
 
 For that same reason, that error messages displayed in the views are handled in the backend and the front-end design was created almost entirely with Bootstrap, except for the footer design. I surely will implement user permissions and other database related features in future projects, built with a higher level of complexity and other technologies from the JavaScript universe.
 
