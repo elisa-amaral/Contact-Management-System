@@ -4,11 +4,11 @@ This project is a contact management system where users can add, view, edit and 
 
 The purpose of the project was to create a data CRUD (Create, Read, Update, Delete) with back-end JavaScript (Node.js, Express.js, MongoDB and more) upon the Model-View-Controller Architecture. The complete Technology Stack used is listed ahead.
 
-All contacts data is fictional (full name, phone number and email address). This data was created for testing purposes with [https://generatedata.com/](generatedata.com)
+All contact data is fictional (full name, phone number and email address). This data was created for testing purposes with [https://generatedata.com/](generatedata.com)
 
 ## Demonstration Video
 
-LINK HERE LINK HERE LINK HERE LINK HERE LINK HERE LINK HERE (GOOGLE DRIVE)
+https://drive.google.com/file/d/1FHaRYZ1wInrqDiTN_YaOd2Lvrz6N6_kB/view?usp=share_link
 
 ## Screenshots
 
