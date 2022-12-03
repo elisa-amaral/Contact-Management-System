@@ -12,11 +12,11 @@ https://drive.google.com/file/d/1FHaRYZ1wInrqDiTN_YaOd2Lvrz6N6_kB/view?usp=share
 
 ## Screenshots
 
-![Screenshot 1: Authentication](Screenshot_1.jpg)
+![Screenshot 1: Authentication](/screenshots/Screenshot_1.jpg)
 
-![Screenshot 2: Contact List](Screenshot_2.jpg)
+![Screenshot 2: Contact List](/screenshots/Screenshot_2.jpg)
 
-![Screenshot 3: Add New Contact (similar to Update page)](Screenshot_3.jpg)
+![Screenshot 3: Add New Contact (similar to Update page)](/screenshots/Screenshot_3.jpg)
 
 ## Important Details
 
