@@ -10,9 +10,7 @@ exports.anotherMiddleware = (req, res, next) => {
 }
 
 exports.checkCsrfError = (err, req, res, next) => {
-    if (err) {
-        return res.render('404') // 404.ejs from views directory
-    }
+    if (err) return res.render('404') // 404.ejs from views directory
 }
 
 exports.csrfMiddleware = (req, res, next) => {
