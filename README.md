@@ -4,7 +4,7 @@ This project is a contact management system where users can add, view, edit and 
 
 The purpose of the project was to create a data CRUD (Create, Read, Update, Delete) with back-end JavaScript (Node.js, Express.js, MongoDB and more) upon the Model-View-Controller Architecture. The complete Technology Stack used is listed ahead.
 
-The **Helmet.js** lines must be commented in the **server.js** file in case the project is run on localhost.
+The **Helmet.js** lines must be commented in the **server.js** file in case the project is running on localhost.
 
 All contact data is fictional (full name, phone number and email address). This data was created for testing purposes with [generatedata.com](https://generatedata.com/)
 
