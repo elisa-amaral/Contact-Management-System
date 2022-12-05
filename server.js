@@ -43,6 +43,7 @@ app.use(csrf())
 app.use(globalMiddleware)
 app.use(checkCsrfError)
 app.use(csrfMiddleware)
+
 app.use(routes)
 
 app.on('ready', () => {
