@@ -12,11 +12,11 @@ All contact data is fictional (full name, phone number and email address). This 
 
 https://drive.google.com/file/d/1FHaRYZ1wInrqDiTN_YaOd2Lvrz6N6_kB/view?usp=share_link
 
-## Screenshot 1: : Authentication
+## Screenshot 1: Authentication
 
 ![Screenshot 1](/screenshots/Screenshot_1.jpg)
 
-## Screenshot 2: : Contact List
+## Screenshot 2: Contact List
 
 ![Screenshot 2](/screenshots/Screenshot_2.jpg)
 
