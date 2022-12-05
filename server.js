@@ -23,7 +23,7 @@ const sessionOptions = session({
     resave: false,
     saveUninitialized: false,
     cookie: {
-        maxAge: 1000 * 60 * 30 * 24 * 7, // 30 minutes (in milliseconds)
+        maxAge: 1000 * 60 * 30, // 30 minutes (in milliseconds)
         httpOnly: true
     },
     store: MongoStore.create({ mongoUrl: process.env.CONNECTIONSTRING})
