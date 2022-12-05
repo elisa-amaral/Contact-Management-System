@@ -8,7 +8,7 @@ The **Helmet.js** lines must be commented in the **server.js** file in case the 
 
 All contact data is fictional (full name, phone number and email address). This data was created for testing purposes with [generatedata.com](https://generatedata.com/)
 
-## Demonstration Video
+## Project Demonstration Video
 
 https://drive.google.com/file/d/1FHaRYZ1wInrqDiTN_YaOd2Lvrz6N6_kB/view?usp=share_link
 
