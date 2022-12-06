@@ -42,7 +42,7 @@ exports.signup = async (req, res) => {
             return // stops here, doesn't create success message
         }
 
-        req.flash('success', 'Account successfully created! Now you can log in below.')
+        req.flash('success', 'Account successfully created! Now you can log in below!')
             req.session.save(function() {
                 return res.redirect('back')
             })
