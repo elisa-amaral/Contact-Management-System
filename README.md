@@ -30,15 +30,6 @@ User permissions were not implemented, that is, all logged in users view and edi
 
 For that same reason, the error messages displayed in the views are handled in the back-end and the front-end design was created almost entirely with Bootstrap, except for the footer design. I surely will implement user permissions and other database related features in future projects, built with a higher level of complexity and other technologies from the JavaScript universe.
 
-## How to Run the Project on Your Computer
-
-+ Download this repository and unzip it  
-+ Install [Node.js LTS](https://nodejs.org/en/download/)
-+ On your computer's terminal (command prompt), change the directory path to the the unzipped repository folder path
-+ Run the command **npm i**  on the terminal to install all dependecies (from the file **package.json** in the repository folder) 
-+ After installing all dependencies, the folder **node_modules** will be created. Only after that, run the command **npm start** in the terminal to start the local server
-+ Access the project at the address http://localhost:3000 (copy and paste to address bar in any browser). To change the port if necessary find "3000" on **server.js** and replace it there.
-
 ## Technology Stack
 
 + JavaScript
