@@ -6,7 +6,7 @@ const session = require('express-session')
 const routes = require('./routes')
 const flash = require('connect-flash')
 const path = require('path')
-// const helmet = require('helmet') //uncommnet when publishing to the cloud
+// const helmet = require('helmet') //remove comment when publishing to the cloud
 const csrf = require('csurf')
 const { globalMiddleware, checkCsrfError, csrfMiddleware } = require('./src/middlewares/middleware')
 const MongoStore = require('connect-mongo')
@@ -31,7 +31,7 @@ const sessionOptions = session({
 app.use(sessionOptions)
 app.use(flash())
 
-// app.use(helmet()) //uncommnet when publishing to the cloud
+// app.use(helmet()) //remove comment when publishing to the cloud
 app.use(express.urlencoded({ extended : true }))
 app.use(express.json())
 app.use(express.static(path.resolve(__dirname, 'public')))
