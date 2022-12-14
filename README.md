@@ -40,7 +40,7 @@ For that same reason, the error messages displayed in the views are handled in t
 + Express.js (server and routes management)
 + Model-View-Controller Architecture (Express.js MVC Framework)
 + Express.js Sessions
-+ Express.js Middlewares
++ Express.js Middleware
 + Express.js Flash Messages
 + Embedded JavaScript Templating (EJS for MVC views)
 + MongoDB Atlas Database
